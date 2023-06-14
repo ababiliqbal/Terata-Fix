@@ -1,0 +1,595 @@
+:root {
+    --pr-color: #1748A1;
+}
+
+
+/* Navbar */
+
+nav {
+    z-index: 3;
+}
+
+
+.nav-color {
+    background-color: var(--pr-color);
+    transition: all .3s ease-in-out;
+}
+
+.bg-transparent {
+    transition: all .3s ease-in-out;
+}
+
+/* Hero Section */
+#hero {
+    background: url('../img/hero-image.jpg');
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Layanan Section */
+#layanan {
+    padding: 100px 0;
+
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #000;
+}
+
+.card-layanan {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+.card-layanan h3 {
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+
+}
+
+.card-layanan p {
+    color: #000;
+    font-size: 14px;
+    transition: all .3s ease-in;
+
+}
+
+/* Ketika Hover */
+
+.card-layanan:hover {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    padding: 40px;
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3 {
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s ease-in;
+
+}
+
+.card-layanan:hover p {
+    color: #fff;
+    font-size: 14px;
+    transition: all .2s ease-in;
+
+}
+
+
+
+/* Acara Section */
+
+.button-acara {
+    width: 100%;
+    height: 63px;
+    background-color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.card-acara h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-acara button {
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-acara .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-acara .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.card-body {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1200px) {
+    .img-swiper {
+        width: 470px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img-swiper {
+        width: 470px !important;
+    }
+}
+
+
+/* Kontak Section */
+
+@media screen and (max-width: 922px) {}
+
+#kontak {
+    background-image: url('../img/footer-image.jpg');
+    margin-top: 158px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+#kontak .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#kontak .container {
+    padding: 148px 0 148px 0
+}
+
+#kontak h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    /* width: 441px; */
+}
+
+#kontak h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline;
+}
+
+.teratai-production {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.card-kontak {
+    width: 100%;
+    height: 445px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-kontak h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1748A1;
+    text-align: center;
+    margin-bottom: 21px;
+
+}
+
+@media screen and (max-width: 422px) {
+    .card-kontak h2 {
+        font-size: 30px;
+
+    }
+}
+
+.form-kontrol {
+    background: #c4c4c4;
+    height: 75px !important;
+    border-radius: 0;
+}
+
+.form-floating label {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-kontak {
+    width: 100%;
+    height: 75px;
+    background: #1748A1;
+    border: none;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+
+.button-selengkapnya:hover {
+    background-color: #0358f6 !important;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+.kard {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: var(--pr-color);
+}
+
+.copyright {
+    bottom: 1%;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+footer a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+/* Profile Animation */
+
+.box10:after,
+.box10:before,
+.box1:after,
+.box1:before,
+.box2 .inner-content:after,
+.box3:after,
+.box3:before,
+.box4:before,
+.box5:after,
+.box5:before,
+.box6:after,
+.box7:after,
+.box7:before {
+    content: ""
+}
+
+.box1,
+.box11,
+.box12,
+.box13,
+.box14,
+.box16,
+.box17,
+.box18,
+.box2,
+.box20,
+.box21,
+.box3,
+.box4,
+.box5,
+.box5 .icon li a,
+.box6,
+.box7,
+.box8 {
+    overflow: hidden
+}
+
+.box1 .title,
+.box10 .title,
+.box4 .title,
+.box7 .title {
+    letter-spacing: 1px
+}
+
+.box3 .post,
+.box4 .post,
+.box5 .post,
+.box7 .post {
+    font-style: italic
+}
+
+.box2 .icon li a,
+.box3 .icon a:hover,
+.box4 .icon li a:hover,
+.box5 .icon li a,
+.box6 .icon li a {
+    border-radius: 50%
+}
+
+.box10 .title,
+.box11 .title,
+.box4 .title,
+.box5 .title,
+.box6 .box-content,
+.box7 .title {
+    text-transform: uppercase
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes animate-hover {
+    0% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, .3)
+    }
+
+    50% {
+        box-shadow: 0 0 0 5px rgba(255, 255, 255, .3)
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, .3)
+    }
+}
+
+.box10,
+.box11,
+.box12,
+.box14,
+.box4,
+.box5,
+.box6,
+.box7,
+.box9 {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3)
+}
+
+.box6 .icon,
+.box7 .icon {
+    padding: 0;
+    list-style: none
+}
+
+.box10 .icon li a,
+.box11,
+.box12,
+.box13,
+.box14,
+.box6 .icon li a,
+.box7,
+.box7 .icon li a,
+.box8,
+.box8 .icon li a {
+    text-align: center
+}
+
+.box7 {
+    position: relative
+}
+
+.box7:after,
+.box7:before {
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 33, 47, .9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s ease 0s
+}
+
+.box7:after {
+    background: rgba(255, 255, 255, .3);
+    border: 2px solid #1748A1;
+    top: 0;
+    left: 170%;
+    opacity: 1;
+    z-index: 1;
+    transform: skewX(45deg);
+    transition: all 1s ease 0s
+}
+
+.box7:hover:before {
+    opacity: 1
+}
+
+.box7:hover:after {
+    left: -170%
+}
+
+.box7 img {
+    width: 100%;
+    height: 330px;
+}
+
+.box7 .box-content {
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    transition: all .5s ease 0s
+}
+
+.box7:hover .box-content {
+    bottom: 30%
+}
+
+.box7 .title {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 10px
+}
+
+.box7 .post {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.box7 .icon {
+    margin: 0
+}
+
+.box7 .icon li {
+    display: inline-block
+}
+
+.box7 .icon li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #1748A1;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 10px;
+    transition: all .5s ease 0s
+}
+
+.box8 .icon li,
+.box8 .title {
+    display: inline-block
+}
+
+.box7 .icon li a:hover {
+    transform: rotate(360deg)
+}
+
+@media only screen and (max-width:990px) {
+    .box {
+        margin-bottom: 30px
+    }
+}
